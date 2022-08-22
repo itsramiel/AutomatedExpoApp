@@ -3,7 +3,7 @@ name: Expo Build Staging
 on:
   push:
     branches:
-      - main
+      - staging
 jobs:
   build:
     runs-on: ubuntu-latest
